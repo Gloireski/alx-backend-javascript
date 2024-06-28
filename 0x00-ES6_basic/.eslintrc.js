@@ -18,6 +18,7 @@ module.exports = {
   },
   plugins: ['jest'],
   rules: {
+    'linebreak-style': 0,
     'no-console': 'off',
     'no-shadow': 'off',
     'no-restricted-syntax': [
@@ -26,10 +27,10 @@ module.exports = {
       'WithStatement',
     ],
   },
-  overrides:[
+  overrides: [
     {
       files: ['*.js'],
       excludedFiles: 'babel.config.js',
-    }
-  ]
+    },
+  ],
 };
