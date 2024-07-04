@@ -1,6 +1,6 @@
 namespace Subjects {
     export interface Teacher {
-        experienceTeachingReact?: number
+        experienceTeachingJava?: number
     }
     export class Java extends Subjects.Subject {
         getRequirements(): string {
