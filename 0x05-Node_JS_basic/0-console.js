@@ -1,10 +1,10 @@
 /**
  * Displays a message on the STDOUT.
- * @param {String} msg The message to display.
- * @author Bezaleel Olakunori <https://github.com/B3zaleel>
+ * @param {String} par The message to display.
+ * @author Belem Gloire BEKOUTOU <https://github.com/Gloireski>
  */
-const displayMessage = (msg) => {
-    console.log(msg);
-  };
-  
-  module.exports = displayMessage;
+function displayMessage (par) {
+    console.log(par);
+}
+
+module.exports = displayMessage;
