@@ -3,7 +3,7 @@
  * @param {String} par The message to display.
  * @author Belem Gloire BEKOUTOU <https://github.com/Gloireski>
  */
-function displayMessage (par) {
+const displayMessage = (par) => {
     console.log(par);
 }
 
