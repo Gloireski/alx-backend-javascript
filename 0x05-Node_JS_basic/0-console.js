@@ -1,3 +1,4 @@
-export default function displayMessage ({par}) {
+function displayMessage (par) {
     console.log(par);
 }
+module.exports = displayMessage;
