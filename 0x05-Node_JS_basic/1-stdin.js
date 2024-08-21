@@ -1,3 +1,9 @@
+/**
+ * display the message Welcome to Holberton School,
+ * what is your name? (followed by a new line)
+ * program should display Your name is: INPUT
+ * @author Belem Gloire BEKOUTOU <https://github.com/Gloireski>
+ */
 process.stdout.write('Welcome to Holberton School, what is your name?\n');
 
 process.stdin.on('readable', () => {
