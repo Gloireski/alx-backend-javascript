@@ -1,9 +1,9 @@
+const fs = require("fs");
 /**
  * Counts the students in a CSV data file.
  * @param {String} path The path to the CSV data file.
  * @author Belem Gloire BEKOUTOU <https://github.com/Gloireski>
  */
-const fs = require("fs");
 const countStudents = (path) => {
   if (!fs.existsSync(path)) {
     throw new Error('Cannot load the database');
